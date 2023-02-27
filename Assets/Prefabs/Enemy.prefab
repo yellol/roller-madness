@@ -152,7 +152,7 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 5300552986771131117, guid: 0bda0387ca9b87e4dab8136929245e09, type: 3}
   onLivesGone: 1
   LevelToLoad: 
 --- !u!54 &-7851024139542395200
