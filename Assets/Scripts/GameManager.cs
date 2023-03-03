@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class GameManager : MonoBehaviour {
@@ -18,9 +19,9 @@ public class GameManager : MonoBehaviour {
 	public int beatLevelScore=0;
 
 	public GameObject mainCanvas;
-	public Text mainScoreDisplay;
+	public TMP_Text mainScoreDisplay;
 	public GameObject gameOverCanvas;
-	public Text gameOverScoreDisplay;
+	public TMP_Text gameOverScoreDisplay;
 
 	[Tooltip("Only need to set if canBeatLevel is set to true.")]
 	public GameObject beatLevelCanvas;
